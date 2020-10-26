@@ -25,5 +25,9 @@ mvn test -DBROWSER=FIREFOX -DHOST=LOCAL
 mvn test -DBROWSER=EDGE -DHOST=LOCAL
 mvn test -DBROWSER=IE -DHOST=LOCAL
 ```
-- Step IV : Find test report and images under BBC_Test/target/cucumber-html-report/index.html
-
+- Step IV : Find test report 
+```
+HTML     : BBC_Test/target/cucumber-html-report/index.html
+Cucumber : BBC_Test/target/cucumber-reports/report.html
+JSON     : BBC_Test/target/cucumber-json-report.json
+```
